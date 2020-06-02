@@ -12,7 +12,7 @@ On the other hand, if we do not store state in the server, then nothings needs t
 
 - In a stateful architecture, it is challenging to handle server failure and scaling since careful handling of user routing must be handled.
 
-On the other hand, stateless architecture **easily scales** horizontally since not must consideration must be taken towards client state.
+On the other hand, stateless architecture **easily scales** horizontally since not much consideration must be taken towards client state during escalation of servers.
 
 **Example of stateful application:**
 
