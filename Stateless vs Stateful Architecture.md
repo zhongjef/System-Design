@@ -1,6 +1,6 @@
 ## Stateless architecture vs Stateful Architecture
 
-A **stateless architecture** is where you store the client state not in the server (web tier), rather, the data tier (in a database along).
+A **stateless architecture** is where you store the client state not in the server (web tier), rather, the data tier (isolated from transcation data).
 
 A **stateful architecture** is where the server remembers client state from one request to the next.
 
@@ -12,7 +12,7 @@ On the other hand, if we do not store state in the server, then nothings needs t
 
 - In a stateful architecture, it is challenging to handle server failure and scaling since careful handling of user routing must be handled.
 
-On the other hand, stateless architecture **easily scales** horizontally since not must consideration must be taken towards client state.
+On the other hand, stateless architecture **easily scales** horizontally since not much consideration must be taken towards client state during escalation of server count.
 
 **Example of stateful application:**
 
@@ -20,7 +20,7 @@ On the other hand, stateless architecture **easily scales** horizontally since n
 
 **Example of stateless application:**
 
-- Single functionality web services that do not store data
+- Functional web services that do not store data
 
  
 
