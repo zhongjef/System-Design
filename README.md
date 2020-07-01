@@ -2,6 +2,6 @@ My notes on distributed systems.
 
 Topics include:
 
-+ Stateless vs Stateful Architecture
++ Stateless vs Stateful Architecture (Note)
 
-+ Consistent Hashing
++ Consistent Hashing (Note & Implementation)
